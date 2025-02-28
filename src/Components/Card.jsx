@@ -3,9 +3,11 @@ import '../App.css';
 function Card() {
     return (
         <>
-         <section className='card'>
-            <h1>FAQs</h1>
-         </section>
+        <main className='card__wrapper'>
+            <section className='card'>
+                <h1>FAQs</h1>
+            </section>
+         </main>
         </>
     )
 }
