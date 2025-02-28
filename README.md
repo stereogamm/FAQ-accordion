@@ -9,6 +9,14 @@ I decided to create this pet project to practice my skills with reactive compone
 
  This pet project is an interactive FAQ accordion component created using React. Accordion allows users to browse through questions and answers, hiding or showing answers when they click on a question. The project also supports keyboard navigation and adaptive layout for different devices.
 
+---
+
+### 🟡 Run the project locally
+
+- `npm run dev`
+
+---
+
 🟡 Main features  
 
 ✅ Hide/Display Answer: when a question is clicked, the corresponding answer is displayed or hidden.  
@@ -22,5 +30,15 @@ I decided to create this pet project to practice my skills with reactive compone
 ✅ CSS  
 ✅ HTML  
 ✅ JavaScript  
+
+---
+
+ ### 🪵 Branch naming
+
+- **feature/** — for branches containing new features or changes that add new functionality.  
+- **bugfix/** — for branches fixing bugs or errors.  
+- **hotfix/** — for urgent fixes in the production version.  
+- **chore/** — for minor tasks that do not affect functionality, such as dependency updates or refactoring.  
+
 
 
