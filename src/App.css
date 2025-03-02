@@ -1,5 +1,6 @@
+/*This file contains the specific component css rules */
 * {
-  box-sizing: border-box; /*to calculate the elements sizes correctly incl margins and paddings*/
+  font-family: "Work Sans", sans-serif;
 }
 
 .main {
@@ -39,18 +40,21 @@
   min-height: 50vh;
 }
 
-h1 {
-  color: hsl(292, 42%, 14%);
-  font-size: 2.5rem;
-  word-wrap: break-word; /*long word wrapping!!!*/
+.list_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-h1::before {
-  content:'';
-  background-image: url(./assets/images/image/icon-star.svg);
-  background-size: cover;
-  display: inline-block;
-  margin: 0 1rem;
-  width: 2rem;
-  height: 2rem;
+.button__icon {
+  width: 70px;
+  height: 70px;
 }
+
+
+
+
+
+
+
+
