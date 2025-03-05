@@ -10,7 +10,7 @@ function ListComponent({isOpen, onClick}) {
         <h2>What is the biggest challenge in coding?</h2>
         <AccordionButton isOpen={isOpen} onClick={onClick}/>
       </div>
-      <p>
+      <p className={isOpen? "visibleItem" : "hiddenItem"}>
         I suppose coding is a hard action, but... you always can try something
         new and if you get unsuccess you can start it again. The biggest
         challenge in coding is solving complex problems and debugging errors,

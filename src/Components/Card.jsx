@@ -14,7 +14,8 @@ function Card() {
             <section className='card'>
                 <h1>FAQs</h1>
                 <ListComponent onClick={handleItemState} isOpen={open}/>
-                <ListComponent />
+                <ListComponent onClick={handleItemState} isOpen={open}/>
+                <ListComponent onClick={handleItemState} isOpen={open}/>
             </section>
          </main>
         </>
