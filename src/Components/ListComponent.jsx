@@ -17,6 +17,7 @@ function ListComponent({isOpen, onClick}) {
         which require patience and logical thinking. However, every mistake is a
         learning opportunity, helping you grow and improve with each attempt.{" "}
       </p>
+      <hr></hr>
     </>
   );
 }
