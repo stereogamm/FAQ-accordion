@@ -3,12 +3,12 @@ import React from "react";
 import "../App.css";
 import AccordionButton from "./AccordionButton";
 
-function ListComponent() {
+function ListComponent({isOpen, onClick}) {
   return (
     <>
       <div className="list_wrapper">
         <h2>What is the biggest challenge in coding?</h2>
-        <AccordionButton />
+        <AccordionButton isOpen={isOpen} onClick={onClick}/>
       </div>
       <p>
         I suppose coding is a hard action, but... you always can try something
