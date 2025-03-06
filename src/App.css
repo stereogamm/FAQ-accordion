@@ -44,6 +44,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
+  width: 100%; 
+  min-width: 280px;
+  flex-wrap: wrap;
+}
+
+.list_item {
+  min-width: 280px;
+  width: 100%;
 }
 
 .button__icon {
@@ -60,8 +69,8 @@
 
 .visibleItem {
   max-height: 100px; 
-  opacity: 1;
-  transition: max-height 1s ease, opacity 1s ease;
+  opacity: 0.8;
+  transition: max-height 2s ease, opacity 1s ease;
 }
 
 
