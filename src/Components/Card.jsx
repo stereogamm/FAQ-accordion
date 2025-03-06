@@ -3,19 +3,17 @@ import '../App.css';
 import ListComponent from './ListComponent';
 
 function Card() {
-    const [open, setOpen] = useState(false);
+    const [openIndex, setOpenIndex] = useState(null);
 
-    function handleItemState() {
-        setOpen((prev) => !prev);
+    function handleItemState(index) {
+        setOpenIndex((prevIndex) => (prevIndex === index? null : index));
     }
     return (
         <>
         <main className='card__wrapper'>
             <section className='card'>
                 <h1>FAQs</h1>
-                <ListComponent onClick={handleItemState} isOpen={open}/>
-                <ListComponent onClick={handleItemState} isOpen={open}/>
-                <ListComponent onClick={handleItemState} isOpen={open}/>
+                <ListComponent onClick={handleItemState} openIndex={openIndex}/>
             </section>
          </main>
         </>
