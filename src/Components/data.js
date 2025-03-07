@@ -4,7 +4,7 @@ const data = [
         text: 'Coding is not easy. Sometimes, you spend hours fixing one small mistake.',
     },
     {
-        header: 'Does debugging take time?',
+        header: 'Does debugging take a time?',
         text: 'Finding errors in code can be difficult. You must be patient and check every detail.',
     },
     {
