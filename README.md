@@ -17,6 +17,10 @@ I decided to create this pet project to practice my skills with reactive compone
 
 ---
 
+![Screenshot](/src/assets/images/image/screen.png)
+
+---
+
 🟡 Main features  
 
 ✅ Hide/Display Answer: when a question is clicked, the corresponding answer is displayed or hidden.  
